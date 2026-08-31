@@ -3,9 +3,7 @@ import os
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
-@app.route("/")
-def home():
-    return "PawMind AI is live!"
+
 # ---------------------------------------------------------
 # CONFIGURATION
 # ---------------------------------------------------------
